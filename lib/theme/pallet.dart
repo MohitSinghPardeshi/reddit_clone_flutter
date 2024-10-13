@@ -41,3 +41,7 @@ class Pallete {
     primaryColor: redColor,
   );
 }
+
+// class ThemeNotifier extends StateNotifier{
+  
+// }
