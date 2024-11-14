@@ -20,10 +20,8 @@ class CommunityScreen extends ConsumerWidget {
     Routemaster.of(context).push('/mod-tools/$name');
   }
 
-  void joinOrLeaveCommunity(d
-      Community community, WidgetRef ref, BuildContext context) async {
-    ref
-        .read(communityControllerProvider.notifier)
+  void joinOrLeaveCommunity(Community community, WidgetRef ref, BuildContext context) async {
+    ref.read(communityControllerProvider.notifier)
         .joinCommunity(community, context);
   }
 
